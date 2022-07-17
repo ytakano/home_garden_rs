@@ -1,0 +1,27 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 127.0.0.1:5432:5432
+    environment:
+      POSTGRES_USER: iot
+      POSTGRES_PASSWORD: db_password
+    volumes:
+      # mkdir ./data
+      - ./data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 127.0.0.1:8080:8080
+
+  grafana:
+    image: grafana/grafana-oss:main
+    restart: always
+    ports:
+      - 3000:3000
