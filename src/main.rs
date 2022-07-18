@@ -30,8 +30,16 @@ fn main() -> Result<(), DynError> {
 
 fn blink_led(mut pin: OutputPin) {
     loop {
-        let dur = Duration::from_millis(500);
+        let dur = Duration::from_millis(5);
         std::thread::sleep(dur);
+
+        let hour = Local::now().hour();
+        if 2 <= hour && hour <= 6 {
+            pin.set_low();
+            let dur = Duration::from_secs(60);
+            std::thread::sleep(dur);
+            continue;
+        }
 
         if pin.is_set_high() {
             pin.set_low();

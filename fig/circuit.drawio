@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="bCS44LKsMefCom2gY1xT" name="ページ1">
-        <mxGraphModel dx="513" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1035" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -690,7 +690,7 @@
                 <mxCell id="VWTLkN5C4CEMNaB7I-aJ-274" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transistors.npn_transistor_1;" parent="1" vertex="1">
                     <mxGeometry x="450" y="350" width="70" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="VWTLkN5C4CEMNaB7I-aJ-275" value="2N2222&lt;br&gt;hFE = 174&lt;br&gt;Ic = 600[mA] (max)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+                <mxCell id="VWTLkN5C4CEMNaB7I-aJ-275" value="2N2222&lt;br&gt;Ic = 600[mA] (max)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="530" y="357.5" width="110" height="45" as="geometry"/>
                 </mxCell>
                 <mxCell id="VWTLkN5C4CEMNaB7I-aJ-276" value="150[Ω]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">

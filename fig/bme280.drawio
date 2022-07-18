@@ -1,0 +1,81 @@
+<mxfile host="65bd71144e">
+    <diagram id="-xMvzeC9MjFp3hxqAUUE" name="ページ1">
+        <mxGraphModel dx="470" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;html=1;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="160" as="sourcePoint"/>
+                        <mxPoint x="280" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=none;html=1;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="199.5" as="sourcePoint"/>
+                        <mxPoint x="280" y="199.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=none;html=1;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="240" as="sourcePoint"/>
+                        <mxPoint x="280" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="280" as="sourcePoint"/>
+                        <mxPoint x="280" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Vin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="230" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Gnd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="270" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="230" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290.013698630137" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="239.86000000000013" as="sourcePoint"/>
+                        <mxPoint x="300" y="239.86000000000013" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Vdd&lt;br&gt;3.3[V]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="225" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Raspberry Pi&lt;br&gt;GPIO5 (Pin#29)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="225" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="BME280" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="280" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="SCL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="190" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="SDA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="150" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Raspberry Pi&lt;br&gt;I2C SDA (Pin#3)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="145" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Raspberry Pi&lt;br&gt;I2C SCL (Pin#5)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="185" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
